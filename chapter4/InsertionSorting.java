@@ -7,8 +7,8 @@ public class InsertionSorting {
         System.out.println("Array awal: " + arrayToString(arr));
         System.out.println();
         for (int i = 1; i < arr.length; i++) {
-            int key = arr[i];
-            int j = i - 1;
+            int key = arr[i]; //10 
+            int j = i - 1; // 3
             System.out.println("Iterasi " + i + ":");
             System.out.println("  Key = " + key + " (indeks " + i + ")");
             System.out.println("  Bandingkan dengan elemen kiri...");
@@ -20,6 +20,7 @@ public class InsertionSorting {
                 j--;
                 
                 if (j >= 0) {
+                    
                     System.out.println("    Array sekarang: " + arrayToString(arr));
                 }
             }
